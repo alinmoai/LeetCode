@@ -2,7 +2,7 @@
 
 Sort:
 
-	(Array Sort) (https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/011.Container-With-Most-Water)
-	(List sort) (https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/011.Container-With-Most-Water)
+	(Array Sort) (https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/ArraySort.java)
+	(List sort) (https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/ArraySort.java)
 	PriorityQueue with order
 
