@@ -1,0 +1,40 @@
+TreeMap - NavigableMap function
+
+　(1)comparator():返回sortedMap的比较器，如果为null，意味着使用默认的Comparable顺序
+
+　(2)subMap(K,K):返回map的一部分，范围是[K,K)。key的大小范围。
+
+　(3)headMap(K):返回比所给key小的map部分
+
+　(4)tailMap(K):返回比所给key大或等于的map部分
+
+　(5)firstKey():返回当前map中最小的key
+
+　(6)lastKey():返回当前map中最大的key
+
+　　　　NavigableMap：
+
+　(1)lowerEntry(K):返回比所给key小且是其中最大的一个键值对
+
+　(2)lowerKey(K):返回比所给key小且是其中最大的一个键
+
+　(3)floorEntry(K):返回小于或等于所给key，且是其中最大的一个键值对
+
+　(4)floorKey(K):返回小于或等于所给key，且是其中最大的一个键
+
+　(5)ceilingEntry(K):返回大于或等于所给key，且是其中最小的一个键值对
+
+　(6)ceilingKey(K):返回大于或等于所给key，且是其中最小的一个键
+
+　(7)higherEntry(K):返回比所给key大且是其中最小的一个键值对
+
+　(8)higherKey(K):返回比所给key大且是其中最小的一个键
+
+　(9)firstEntry():返回当前map中key最小的键值对
+
+　(10)lastEntry():返回当前map中key最大的键值对
+
+　(11)pollFirstEntry():返回并移除当前map中key最小的键值对
+
+　(12)pollLastEntry():返回并移除当前map中key最大的键值对
+
