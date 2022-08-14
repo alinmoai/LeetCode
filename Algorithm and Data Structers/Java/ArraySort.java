@@ -15,5 +15,8 @@ class Solution {
                 return o1[0] - o2[0];
             }
         });
+
+        // 同樣功能 比較短的寫法
+        Arrays.sort(event, (a, b) -> (a[0] == b[0]) ? Integer.compare(b[1], a[1]) : Integer.compare(a[0], b[0]));
     }
 }
