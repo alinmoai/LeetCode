@@ -1,0 +1,6 @@
+StringBuilder - 常用function
+
+reverse()
+append()
+deleteCharAt()
+

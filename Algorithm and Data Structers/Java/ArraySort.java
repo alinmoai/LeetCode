@@ -18,5 +18,25 @@ class Solution {
 
         // 同樣功能 比較短的寫法
         Arrays.sort(event, (a, b) -> (a[0] == b[0]) ? Integer.compare(b[1], a[1]) : Integer.compare(a[0], b[0]));
+
+        Arrays.sort(stations, (a,b)-> {return a[0]-b[0];});
+
+        Arrays.sort(nums, Collections.reverseOrder());
+
+        // 如果只有一維的 int array 要轉換成integer才能用lambda去sort
+        int[][] input = new int[][]{{3,1},{2,1}};
+        Arrays.sort(input, (a,b) -> {return a[0] - b[0];});
+    }
+
+    public void arrayTrans() {
+        int[] data = {1,2,3,4,5,6,7,8,9,10};
+
+        // To boxed array
+        Integer[] what = Arrays.stream( data ).boxed().toArray( Integer[]::new );
+        Integer[] ever = IntStream.of( data ).boxed().toArray( Integer[]::new );
+
+        // To boxed list
+        List<Integer> you  = Arrays.stream( data ).boxed().collect( Collectors.toList() );
+        List<Integer> like = IntStream.of( data ).boxed().collect( Collectors.toList() );
     }
 }
