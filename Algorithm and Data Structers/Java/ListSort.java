@@ -13,4 +13,13 @@ class Solution {
         
         return;
     }
+
+    public void listToSrray(List<Foo> list) {
+        Foo[] array = list.toArray(new Foo[0]);
+
+        // or 
+        // 要轉換的型態不同要用這個
+        int[] example1 = list.stream().mapToInt(i->i).toArray();
+    }
+    
 }

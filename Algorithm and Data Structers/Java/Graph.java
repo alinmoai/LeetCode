@@ -33,4 +33,17 @@ class Solution {
         // System.out.printf("%s, %s hasPath\n", word1, word2);
         return true;
     }
+
+    // n個node, 每個edge表示兩個node之間有雙向通道
+    private boolean buildGraph2(int n, int[][] edges) {
+        List<List<Integer>> graph;
+        graph = new ArrayList();
+        for (int i = 0; i < n; i++) { graph.add(new ArrayList<Integer>());}
+
+        for (int[] edge : edges) {
+            graph.get(edge[0]).add(edge[1]);
+            graph.get(edge[1]).add(edge[0]);
+        }
+
+    }
 }
