@@ -23,5 +23,5 @@
 
 ### Util ###
 
-[StringBuilder](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/StringBuilder.java)  
-[Class](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/Class.java)  
+[StringBuilder](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/StringBuilder.txt)  
+[Class](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/class.java)  
