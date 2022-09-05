@@ -13,4 +13,15 @@
 
 [Build Graph](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/Graph.java)  
 [BFS](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/BFS.java)  
+[DirectionArray](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/DirectionArray.java)  
 
+### Math ###
+
+[1e9+7](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/1e9+7.java)  
+[GCD](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/GCD.java)  
+[Primes](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/Primes.java)  
+
+### Util ###
+
+[StringBuilder](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/StringBuilder.java)  
+[Class](https://github.com/alinmoai/LeetCode/blob/master/Algorithm%20and%20Data%20Structers/Java/Class.java)  
