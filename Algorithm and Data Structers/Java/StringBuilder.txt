@@ -3,4 +3,5 @@ StringBuilder - 常用function
 reverse()
 append()
 deleteCharAt()
-
+sb.insert(sb.length() - 2, '-');
+sb.setCharAt(index, '/');

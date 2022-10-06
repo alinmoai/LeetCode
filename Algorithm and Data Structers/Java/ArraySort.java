@@ -39,4 +39,21 @@ class Solution {
         List<Integer> you  = Arrays.stream( data ).boxed().collect( Collectors.toList() );
         List<Integer> like = IntStream.of( data ).boxed().collect( Collectors.toList() );
     }
+
+    public int[] arrayAppend(int[] array, int[] append) {
+         int[] newArray = Arrays.copyOf(array, array.length + append.length);
+         for (int i = array.length; i < newArray.length) {
+            newArray[i] = append[i-array.length];
+         }
+         return newArray;
+    }
+
+    Arrays.sort(idx, new Comparator<Integer>() {
+        @Override public int compare(Integer o1, Integer o2) {
+            if (cars[o1][1] == cars[o2][1]) {
+                return cars[o2][0] - cars[o1][0];
+            }
+            return cars[o1][1] - cars[o2][1];
+        }
+    });
 }
